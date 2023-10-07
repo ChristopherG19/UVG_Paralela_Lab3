@@ -333,8 +333,6 @@ void Parallel_vector_product(
         scalar_product += local_x[local_i] + local_y[local_i];
     }
    
-
-   // Copy the results to local_z (optional, you may modify this based on your needs)
    local_z[0] = dot_product;
    local_z[1] = scalar_product;
 }
