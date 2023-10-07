@@ -1,0 +1,11 @@
+vector_add.c
+* gcc -o vector_add vector_add.c
+* ./vector_add
+
+mpi_vector_add.c
+* mpicc -g mpi_vector_add.c -o mpi_vector_add
+* mpirun -np 3 ./mpi_vector_add
+
+mpi_vector_product.c
+* mpicc -g mpi_vector_product.c -o mpi_product
+* mpirun -np 3 ./mpi_product
